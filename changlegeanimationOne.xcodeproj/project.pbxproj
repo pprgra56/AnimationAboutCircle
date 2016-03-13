@@ -15,6 +15,8 @@
 		9B33CD811C92B69900E3384C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B33CD7F1C92B69900E3384C /* LaunchScreen.storyboard */; };
 		9B33CD8C1C92B69900E3384C /* changlegeanimationOneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B33CD8B1C92B69900E3384C /* changlegeanimationOneTests.m */; };
 		9B33CD971C92B69900E3384C /* changlegeanimationOneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B33CD961C92B69900E3384C /* changlegeanimationOneUITests.m */; };
+		9B33CDA71C92B72E00E3384C /* CQView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B33CDA61C92B72E00E3384C /* CQView.m */; };
+		9B33CDAA1C92B75000E3384C /* CQLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B33CDA91C92B75000E3384C /* CQLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		9B33CD921C92B69900E3384C /* changlegeanimationOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = changlegeanimationOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B33CD961C92B69900E3384C /* changlegeanimationOneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = changlegeanimationOneUITests.m; sourceTree = "<group>"; };
 		9B33CD981C92B69900E3384C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B33CDA51C92B72E00E3384C /* CQView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQView.h; sourceTree = "<group>"; };
+		9B33CDA61C92B72E00E3384C /* CQView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQView.m; sourceTree = "<group>"; };
+		9B33CDA81C92B75000E3384C /* CQLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQLayer.h; sourceTree = "<group>"; };
+		9B33CDA91C92B75000E3384C /* CQLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		9B33CD701C92B69800E3384C /* changlegeanimationOne */ = {
 			isa = PBXGroup;
 			children = (
+				9B33CDA41C92B71200E3384C /* CustomView&Layer */,
 				9B33CD741C92B69800E3384C /* AppDelegate.h */,
 				9B33CD751C92B69800E3384C /* AppDelegate.m */,
 				9B33CD771C92B69900E3384C /* ViewController.h */,
@@ -138,6 +145,17 @@
 				9B33CD981C92B69900E3384C /* Info.plist */,
 			);
 			path = changlegeanimationOneUITests;
+			sourceTree = "<group>";
+		};
+		9B33CDA41C92B71200E3384C /* CustomView&Layer */ = {
+			isa = PBXGroup;
+			children = (
+				9B33CDA51C92B72E00E3384C /* CQView.h */,
+				9B33CDA61C92B72E00E3384C /* CQView.m */,
+				9B33CDA81C92B75000E3384C /* CQLayer.h */,
+				9B33CDA91C92B75000E3384C /* CQLayer.m */,
+			);
+			name = "CustomView&Layer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +290,9 @@
 			files = (
 				9B33CD791C92B69900E3384C /* ViewController.m in Sources */,
 				9B33CD761C92B69800E3384C /* AppDelegate.m in Sources */,
+				9B33CDA71C92B72E00E3384C /* CQView.m in Sources */,
 				9B33CD731C92B69800E3384C /* main.m in Sources */,
+				9B33CDAA1C92B75000E3384C /* CQLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
