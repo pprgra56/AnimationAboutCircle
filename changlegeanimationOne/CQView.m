@@ -14,25 +14,39 @@
 
 @property(strong,nonatomic) CQLayer *CQlayer;
 
-@property(assign,nonatomic) float p;
+
 
 @end
 
 @implementation CQView
 
+-(CQLayer *)CQlayer{
+    if (_CQlayer == nil){
+        _CQlayer = [CQLayer layer];
+    }
+    return _CQlayer;
+}
+
 -(void)initWithCQLayerFrame:(CGRect )rect{
 
-    self.CQlayer = [CQLayer layer];
+
     self.CQlayer.frame = CGRectMake(0, 0, rect.size.width, rect.size.height);
 
-    self.CQlayer.progress = self.p;
+    self.CQlayer.progress = _progress;
+
+
+        
     [self.layer addSublayer:self.CQlayer];
+        
+
+
     
 }
 
 
 -(void)setProgress:(float)progress{
-    self.p = progress;
+    _progress = progress;
+    self.CQlayer.progress = progress;
 }
 
 

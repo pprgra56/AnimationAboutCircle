@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9B33CD6E1C92B69800E3384C /* changlegeanimationOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = changlegeanimationOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B33CD6E1C92B69800E3384C /* AnimationOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B33CD721C92B69800E3384C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9B33CD741C92B69800E3384C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9B33CD751C92B69800E3384C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -47,10 +47,10 @@
 		9B33CD7D1C92B69900E3384C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B33CD801C92B69900E3384C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B33CD821C92B69900E3384C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B33CD871C92B69900E3384C /* changlegeanimationOneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = changlegeanimationOneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B33CD871C92B69900E3384C /* AnimationOne.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationOne.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B33CD8B1C92B69900E3384C /* changlegeanimationOneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = changlegeanimationOneTests.m; sourceTree = "<group>"; };
 		9B33CD8D1C92B69900E3384C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B33CD921C92B69900E3384C /* changlegeanimationOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = changlegeanimationOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B33CD921C92B69900E3384C /* AnimationOne.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationOne.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B33CD961C92B69900E3384C /* changlegeanimationOneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = changlegeanimationOneUITests.m; sourceTree = "<group>"; };
 		9B33CD981C92B69900E3384C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B33CDA51C92B72E00E3384C /* CQView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQView.h; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 		9B33CD651C92B69800E3384C = {
 			isa = PBXGroup;
 			children = (
-				9B33CD701C92B69800E3384C /* changlegeanimationOne */,
+				9B33CD701C92B69800E3384C /* AnimationOne */,
 				9B33CD8A1C92B69900E3384C /* changlegeanimationOneTests */,
 				9B33CD951C92B69900E3384C /* changlegeanimationOneUITests */,
 				9B33CD6F1C92B69800E3384C /* Products */,
@@ -97,14 +97,14 @@
 		9B33CD6F1C92B69800E3384C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9B33CD6E1C92B69800E3384C /* changlegeanimationOne.app */,
-				9B33CD871C92B69900E3384C /* changlegeanimationOneTests.xctest */,
-				9B33CD921C92B69900E3384C /* changlegeanimationOneUITests.xctest */,
+				9B33CD6E1C92B69800E3384C /* AnimationOne.app */,
+				9B33CD871C92B69900E3384C /* AnimationOne.xctest */,
+				9B33CD921C92B69900E3384C /* AnimationOne.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9B33CD701C92B69800E3384C /* changlegeanimationOne */ = {
+		9B33CD701C92B69800E3384C /* AnimationOne */ = {
 			isa = PBXGroup;
 			children = (
 				9B33CDA41C92B71200E3384C /* CustomView&Layer */,
@@ -118,6 +118,7 @@
 				9B33CD821C92B69900E3384C /* Info.plist */,
 				9B33CD711C92B69800E3384C /* Supporting Files */,
 			);
+			name = AnimationOne;
 			path = changlegeanimationOne;
 			sourceTree = "<group>";
 		};
@@ -161,9 +162,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9B33CD6D1C92B69800E3384C /* changlegeanimationOne */ = {
+		9B33CD6D1C92B69800E3384C /* AnimationOne */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B33CD9B1C92B69900E3384C /* Build configuration list for PBXNativeTarget "changlegeanimationOne" */;
+			buildConfigurationList = 9B33CD9B1C92B69900E3384C /* Build configuration list for PBXNativeTarget "AnimationOne" */;
 			buildPhases = (
 				9B33CD6A1C92B69800E3384C /* Sources */,
 				9B33CD6B1C92B69800E3384C /* Frameworks */,
@@ -173,14 +174,14 @@
 			);
 			dependencies = (
 			);
-			name = changlegeanimationOne;
+			name = AnimationOne;
 			productName = changlegeanimationOne;
-			productReference = 9B33CD6E1C92B69800E3384C /* changlegeanimationOne.app */;
+			productReference = 9B33CD6E1C92B69800E3384C /* AnimationOne.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9B33CD861C92B69900E3384C /* changlegeanimationOneTests */ = {
+		9B33CD861C92B69900E3384C /* AnimationOneTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B33CD9E1C92B69900E3384C /* Build configuration list for PBXNativeTarget "changlegeanimationOneTests" */;
+			buildConfigurationList = 9B33CD9E1C92B69900E3384C /* Build configuration list for PBXNativeTarget "AnimationOneTests" */;
 			buildPhases = (
 				9B33CD831C92B69900E3384C /* Sources */,
 				9B33CD841C92B69900E3384C /* Frameworks */,
@@ -191,14 +192,14 @@
 			dependencies = (
 				9B33CD891C92B69900E3384C /* PBXTargetDependency */,
 			);
-			name = changlegeanimationOneTests;
+			name = AnimationOneTests;
 			productName = changlegeanimationOneTests;
-			productReference = 9B33CD871C92B69900E3384C /* changlegeanimationOneTests.xctest */;
+			productReference = 9B33CD871C92B69900E3384C /* AnimationOne.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9B33CD911C92B69900E3384C /* changlegeanimationOneUITests */ = {
+		9B33CD911C92B69900E3384C /* AnimationOneUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B33CDA11C92B69900E3384C /* Build configuration list for PBXNativeTarget "changlegeanimationOneUITests" */;
+			buildConfigurationList = 9B33CDA11C92B69900E3384C /* Build configuration list for PBXNativeTarget "AnimationOneUITests" */;
 			buildPhases = (
 				9B33CD8E1C92B69900E3384C /* Sources */,
 				9B33CD8F1C92B69900E3384C /* Frameworks */,
@@ -209,9 +210,9 @@
 			dependencies = (
 				9B33CD941C92B69900E3384C /* PBXTargetDependency */,
 			);
-			name = changlegeanimationOneUITests;
+			name = AnimationOneUITests;
 			productName = changlegeanimationOneUITests;
-			productReference = 9B33CD921C92B69900E3384C /* changlegeanimationOneUITests.xctest */;
+			productReference = 9B33CD921C92B69900E3384C /* AnimationOne.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -236,7 +237,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9B33CD691C92B69800E3384C /* Build configuration list for PBXProject "changlegeanimationOne" */;
+			buildConfigurationList = 9B33CD691C92B69800E3384C /* Build configuration list for PBXProject "AnimationOne" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -249,9 +250,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9B33CD6D1C92B69800E3384C /* changlegeanimationOne */,
-				9B33CD861C92B69900E3384C /* changlegeanimationOneTests */,
-				9B33CD911C92B69900E3384C /* changlegeanimationOneUITests */,
+				9B33CD6D1C92B69800E3384C /* AnimationOne */,
+				9B33CD861C92B69900E3384C /* AnimationOneTests */,
+				9B33CD911C92B69900E3384C /* AnimationOneUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -317,12 +318,12 @@
 /* Begin PBXTargetDependency section */
 		9B33CD891C92B69900E3384C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9B33CD6D1C92B69800E3384C /* changlegeanimationOne */;
+			target = 9B33CD6D1C92B69800E3384C /* AnimationOne */;
 			targetProxy = 9B33CD881C92B69900E3384C /* PBXContainerItemProxy */;
 		};
 		9B33CD941C92B69900E3384C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9B33CD6D1C92B69800E3384C /* changlegeanimationOne */;
+			target = 9B33CD6D1C92B69800E3384C /* AnimationOne */;
 			targetProxy = 9B33CD931C92B69900E3384C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -434,7 +435,7 @@
 				INFOPLIST_FILE = changlegeanimationOne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shouhuobao.changlegeanimationOne;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AnimationOne;
 			};
 			name = Debug;
 		};
@@ -445,7 +446,7 @@
 				INFOPLIST_FILE = changlegeanimationOne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shouhuobao.changlegeanimationOne;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AnimationOne;
 			};
 			name = Release;
 		};
@@ -456,8 +457,8 @@
 				INFOPLIST_FILE = changlegeanimationOneTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shouhuobao.changlegeanimationOneTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/changlegeanimationOne.app/changlegeanimationOne";
+				PRODUCT_NAME = AnimationOne;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimationOne.app/AnimationOne";
 			};
 			name = Debug;
 		};
@@ -468,8 +469,8 @@
 				INFOPLIST_FILE = changlegeanimationOneTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shouhuobao.changlegeanimationOneTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/changlegeanimationOne.app/changlegeanimationOne";
+				PRODUCT_NAME = AnimationOne;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimationOne.app/AnimationOne";
 			};
 			name = Release;
 		};
@@ -479,7 +480,7 @@
 				INFOPLIST_FILE = changlegeanimationOneUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shouhuobao.changlegeanimationOneUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AnimationOne;
 				TEST_TARGET_NAME = changlegeanimationOne;
 				USES_XCTRUNNER = YES;
 			};
@@ -491,7 +492,7 @@
 				INFOPLIST_FILE = changlegeanimationOneUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shouhuobao.changlegeanimationOneUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AnimationOne;
 				TEST_TARGET_NAME = changlegeanimationOne;
 				USES_XCTRUNNER = YES;
 			};
@@ -500,7 +501,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9B33CD691C92B69800E3384C /* Build configuration list for PBXProject "changlegeanimationOne" */ = {
+		9B33CD691C92B69800E3384C /* Build configuration list for PBXProject "AnimationOne" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9B33CD991C92B69900E3384C /* Debug */,
@@ -509,29 +510,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B33CD9B1C92B69900E3384C /* Build configuration list for PBXNativeTarget "changlegeanimationOne" */ = {
+		9B33CD9B1C92B69900E3384C /* Build configuration list for PBXNativeTarget "AnimationOne" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9B33CD9C1C92B69900E3384C /* Debug */,
 				9B33CD9D1C92B69900E3384C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		9B33CD9E1C92B69900E3384C /* Build configuration list for PBXNativeTarget "changlegeanimationOneTests" */ = {
+		9B33CD9E1C92B69900E3384C /* Build configuration list for PBXNativeTarget "AnimationOneTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9B33CD9F1C92B69900E3384C /* Debug */,
 				9B33CDA01C92B69900E3384C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		9B33CDA11C92B69900E3384C /* Build configuration list for PBXNativeTarget "changlegeanimationOneUITests" */ = {
+		9B33CDA11C92B69900E3384C /* Build configuration list for PBXNativeTarget "AnimationOneUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9B33CDA21C92B69900E3384C /* Debug */,
 				9B33CDA31C92B69900E3384C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9B33CD6D1C92B69800E3384C"
-               BuildableName = "changlegeanimationOne.app"
-               BlueprintName = "changlegeanimationOne"
-               ReferencedContainer = "container:changlegeanimationOne.xcodeproj">
+               BuildableName = "AnimationOne.app"
+               BlueprintName = "AnimationOne"
+               ReferencedContainer = "container:AnimationOne.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9B33CD861C92B69900E3384C"
-               BuildableName = "changlegeanimationOneTests.xctest"
-               BlueprintName = "changlegeanimationOneTests"
-               ReferencedContainer = "container:changlegeanimationOne.xcodeproj">
+               BuildableName = "AnimationOne.xctest"
+               BlueprintName = "AnimationOneTests"
+               ReferencedContainer = "container:AnimationOne.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9B33CD911C92B69900E3384C"
-               BuildableName = "changlegeanimationOneUITests.xctest"
-               BlueprintName = "changlegeanimationOneUITests"
-               ReferencedContainer = "container:changlegeanimationOne.xcodeproj">
+               BuildableName = "AnimationOne.xctest"
+               BlueprintName = "AnimationOneUITests"
+               ReferencedContainer = "container:AnimationOne.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9B33CD6D1C92B69800E3384C"
-            BuildableName = "changlegeanimationOne.app"
-            BlueprintName = "changlegeanimationOne"
-            ReferencedContainer = "container:changlegeanimationOne.xcodeproj">
+            BuildableName = "AnimationOne.app"
+            BlueprintName = "AnimationOne"
+            ReferencedContainer = "container:AnimationOne.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9B33CD6D1C92B69800E3384C"
-            BuildableName = "changlegeanimationOne.app"
-            BlueprintName = "changlegeanimationOne"
-            ReferencedContainer = "container:changlegeanimationOne.xcodeproj">
+            BuildableName = "AnimationOne.app"
+            BlueprintName = "AnimationOne"
+            ReferencedContainer = "container:AnimationOne.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9B33CD6D1C92B69800E3384C"
-            BuildableName = "changlegeanimationOne.app"
-            BlueprintName = "changlegeanimationOne"
-            ReferencedContainer = "container:changlegeanimationOne.xcodeproj">
+            BuildableName = "AnimationOne.app"
+            BlueprintName = "AnimationOne"
+            ReferencedContainer = "container:AnimationOne.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

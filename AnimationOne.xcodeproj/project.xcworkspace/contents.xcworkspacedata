@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:changlegeanimationOne.xcodeproj">
+      location = "self:/Users/changqiong/Desktop/CODE/changlegeanimationOne/AnimationOne.xcodeproj">
    </FileRef>
 </Workspace>
